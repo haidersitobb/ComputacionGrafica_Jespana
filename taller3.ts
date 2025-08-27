@@ -93,7 +93,7 @@ let healthPoints: number = 150;
 // : "otraEtiqueta" no estaba dentro de los tipos permitidos
 let otherMultipleDataType: number | boolean | "myTag" | "otraEtiqueta" = "otraEtiqueta";
 
-// ✅ Correcto: myVar tiene tipo implícito 'any' y puede cambiar
+//  myVar tiene tipo implícito 'any' y puede cambiar
 let myVar;
 myVar = 123;
 myVar = true;
